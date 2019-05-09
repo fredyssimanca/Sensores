@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.freddyssimanca.sensores">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActFieldMagnetic"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActTem" />
+        <activity android:name=".ActAce" />
+        <activity android:name=".ActPro" />
+        <activity android:name=".ActOri" />
+        <activity android:name=".ActLuz" />
+        <activity android:name=".ActPrueba" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ActDeteccion"></activity>
+    </application>
+
+</manifest>
